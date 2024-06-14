@@ -1,9 +1,6 @@
-import 'package:ajitstafd/app_config.dart';
 import 'package:ajitstafd/features/screens/code_editor.dart';
 import 'package:flutter/material.dart';
 
-import '../../utils/my_styles.dart';
-import '../widgets/card_widget.dart';
 import 'learn_screen.dart';
 import 'start_screen.dart';
 

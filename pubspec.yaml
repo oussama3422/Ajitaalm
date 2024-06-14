@@ -41,6 +41,10 @@ dependencies:
   highlighting: ^0.9.0+11.8.0
   gap: ^3.0.1
   url_launcher: ^6.3.0
+  flutter_bloc: ^8.1.6
+  http: ^1.2.1
+  youtube_player_flutter: ^9.0.1
+  flutter_inappwebview: ^6.0.0
 
 dev_dependencies:
   flutter_test:

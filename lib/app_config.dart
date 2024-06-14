@@ -1,4 +1,5 @@
 class AppConfig {
+  static const String apiKey='AIzaSyDIfLQ7HACtCNqjdEqDOeOhY-1e1tcH8X4';
   static const String defaultSmile =  "https://firebasestorage.googleapis.com/v0/b/gladly-app.appspot.com/o/imagetoShuffle%2F6.jpg?alt=media&token=a9a56638-af38-445f-ad0c-598bbd8c0ac1";
   static const String baseUrl = '';
   static const String path = 'api';
@@ -8,7 +9,5 @@ class AppConfig {
   static bool adsMode = false;
   static Environment env = Environment.DEV;
 }
-
-
 
 enum Environment { DEV, PROD, STAG }

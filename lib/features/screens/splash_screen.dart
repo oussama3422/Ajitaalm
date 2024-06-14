@@ -20,10 +20,20 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: CircularProgressIndicator(
-          backgroundColor: Colors.blue,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/Ajitaalm.png',
+              height: 50,
+              width: 50,
+            ),
+            CircularProgressIndicator(
+              backgroundColor: Colors.blue,
+            ),
+          ],
         ),
       ),
     );
